@@ -25,7 +25,7 @@ const IndexPage = (props) => {
   const classes = useStyles({});
   const [message, setMessage] = React.useState(props.user.name);
 
-  const onClick = () => setMessage('@react-ssr/express');
+  const onClick = () => setMessage('@react-ssr-withLess/express');
 
   return (
     <div className={classes.root}>
@@ -33,7 +33,7 @@ const IndexPage = (props) => {
         Material UI
       </Typography>
       <Typography variant="subtitle1" gutterBottom>
-        with @react-ssr/express
+        with @react-ssr-withLess/express
       </Typography>
       <img
         className={classes.logo}

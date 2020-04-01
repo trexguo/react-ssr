@@ -110,7 +110,7 @@ export const configureWebpack = (entry: webpack.Entry): webpack.Configuration =>
               loader: 'css-loader',
             },
             {
-              loader: 'sass-loader',
+              loader: 'less-loader',
               options: {
                 sourceMap: !isProd(),
               },

@@ -1,5 +1,5 @@
 const express = require('express');
-const register = require('@react-ssr/express/register');
+const register = require('@react-ssr-withLess/express/register');
 
 const app = express();
 

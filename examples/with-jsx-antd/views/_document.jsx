@@ -3,14 +3,14 @@ import {
   Document,
   Head,
   Main,
-} from '@react-ssr/express';
+} from '@react-ssr-withLess/express';
 
 export default class extends Document {
   render() {
     return (
       <html lang="en">
         <Head>
-          <title>@react-ssr/express with Ant Design</title>
+          <title>@react-ssr-withLess/express with Ant Design</title>
         </Head>
         <body>
           <Main />

@@ -1,5 +1,5 @@
 import express from 'express';
-import register from '@react-ssr/express/register';
+import register from '@react-ssr-withLess/express/register';
 
 const app = express();
 
