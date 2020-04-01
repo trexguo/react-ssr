@@ -1,5 +1,5 @@
 const express = require('express');
-const register = require('@react-ssr-withLess/express/register');
+const register = require('@react-ssr-with-less/express/register');
 
 const app = express();
 
@@ -7,12 +7,12 @@ const app = express();
   await register(app);
 
   app.get('/', (req, res) => {
-    const title = 'Home Page - @react-ssr-withLess/express with And Design';
+    const title = 'Home Page - @react-ssr-with-less/express with And Design';
     res.render('index', { title });
   });
 
   app.get('/next', (req, res) => {
-    const title = 'Next Page - @react-ssr-withLess/express with And Design';
+    const title = 'Next Page - @react-ssr-with-less/express with And Design';
     res.render('next', { title });
   });
 

@@ -3,7 +3,7 @@ import {
   Document,
   Head,
   Main,
-} from '@react-ssr-withLess/express';
+} from '@react-ssr-with-less/express';
 
 export default class extends Document {
   render() {
@@ -11,7 +11,7 @@ export default class extends Document {
       <html lang="en">
         <Head>
           <meta charSet="utf-8" />
-          <title>with-jsx-material-ui - @react-ssr-withLess/express</title>
+          <title>with-jsx-material-ui - @react-ssr-with-less/express</title>
         </Head>
         <body>
           <Main />

@@ -1,5 +1,5 @@
 {
   "presets": [
-    "@react-ssr-withLess/express/babel"
+    "@react-ssr-with-less/express/babel"
   ]
 }

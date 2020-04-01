@@ -1,5 +1,5 @@
 import React from 'react';
-import { Head } from '@react-ssr-withLess/express';
+import { Head } from '@react-ssr-with-less/express';
 
 interface IndexProps {
   user: any;
@@ -14,7 +14,7 @@ const Index = ({ user }: IndexProps) => {
     <React.Fragment>
       <Head>
         <title>
-          basic-tsx - @react-ssr-withLess/express
+          basic-tsx - @react-ssr-with-less/express
         </title>
       </Head>
       <p>Hello {user.name}!</p>

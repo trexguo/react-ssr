@@ -34,8 +34,8 @@ Install it:
 # install NestJS dependencies
 $ npm install --save @nestjs/core @nestjs/common @nestjs/platform-express reflect-metadata rxjs
 
-# install @react-ssr-withLess/nestjs-express
-$ npm install --save @react-ssr-withLess/core @react-ssr-withLess/nestjs-express react react-dom
+# install @react-ssr-with-less/nestjs-express
+$ npm install --save @react-ssr-with-less/core @react-ssr-with-less/nestjs-express react react-dom
 ```
 
 And add a script to your package.json like this:
@@ -100,7 +100,7 @@ Then, populate files below inside your project:
 ```ts
 import { NestFactory } from '@nestjs/core';
 import { NestExpressApplication } from '@nestjs/platform-express';
-import register from '@react-ssr-withLess/nestjs-express/register';
+import register from '@react-ssr-with-less/nestjs-express/register';
 import { AppModule } from './app.module';
 
 (async () => {
@@ -276,7 +276,7 @@ We can extends its default `.babelrc` like this:
 ```json
 {
   "presets": [
-    "@react-ssr-withLess/nestjs-express/babel"
+    "@react-ssr-with-less/nestjs-express/babel"
   ]
 }
 ```
@@ -325,7 +325,7 @@ import {
   Document,
   Head,
   Main,
-} from '@react-ssr-withLess/nestjs-express';
+} from '@react-ssr-with-less/nestjs-express';
 
 export default class extends Document {
   render() {
@@ -372,7 +372,7 @@ We can use the `Head` component in any pages:
 
 ```tsx
 import React from 'react';
-import { Head } from '@react-ssr-withLess/nestjs-express';
+import { Head } from '@react-ssr-with-less/nestjs-express';
 
 const Index = (props) => {
   return (
@@ -419,7 +419,7 @@ import {
   Document,
   Head,
   Main,
-} from '@react-ssr-withLess/express';
+} from '@react-ssr-with-less/express';
 
 export default class extends Document {
   render() {
@@ -449,7 +449,7 @@ And then, populate `.babelrc` in your project root:
 ```json
 {
   "presets": [
-    "@react-ssr-withLess/express/babel"
+    "@react-ssr-with-less/express/babel"
   ],
   "plugins": [
     [
@@ -480,7 +480,7 @@ And then, populate `.babelrc` in your project root:
 ```json
 {
   "presets": [
-    "@react-ssr-withLess/express/babel"
+    "@react-ssr-with-less/express/babel"
   ],
   "plugins": [
     "emotion"
@@ -509,7 +509,7 @@ And then, populate `.babelrc` in your project root:
 ```json
 {
   "presets": [
-    "@react-ssr-withLess/express/babel"
+    "@react-ssr-with-less/express/babel"
   ],
   "plugins": [
     "styled-components"
@@ -521,7 +521,7 @@ A working example is here: [examples/with-jsx-styled-components](https://github.
 
 ## Examples
 
-### @react-ssr-withLess/express
+### @react-ssr-with-less/express
 
 **.jsx**
 
@@ -547,7 +547,7 @@ A working example is here: [examples/with-jsx-styled-components](https://github.
 - [examples/basic-tsx](https://github.com/saltyshiomix/react-ssr/tree/master/examples/basic-tsx)
 - [examples/with-tsx-redux-todo](https://github.com/saltyshiomix/react-ssr/tree/master/examples/with-tsx-redux-todo)
 
-### @react-ssr-withLess/nestjs-express
+### @react-ssr-with-less/nestjs-express
 
 - [examples/basic-nestjs](https://github.com/saltyshiomix/react-ssr/tree/master/examples/basic-nestjs)
 - [examples/basic-nestjs-nodemon](https://github.com/saltyshiomix/react-ssr/tree/master/examples/basic-nestjs-nodemon)

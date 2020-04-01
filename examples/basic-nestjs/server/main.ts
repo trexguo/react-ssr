@@ -1,6 +1,6 @@
 import { NestFactory } from '@nestjs/core';
 import { NestExpressApplication } from '@nestjs/platform-express';
-import register from '@react-ssr-withLess/nestjs-express/register';
+import register from '@react-ssr-with-less/nestjs-express/register';
 import { AppModule } from './app.module';
 
 async function bootstrap() {

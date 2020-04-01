@@ -1,5 +1,5 @@
 import React from 'react';
-import { Head } from '@react-ssr-withLess/express';
+import { Head } from '@react-ssr-with-less/express';
 
 const Index = (props) => {
   const [message, setMessage] = React.useState('waiting...');
@@ -9,7 +9,7 @@ const Index = (props) => {
   return (
     <React.Fragment>
       <Head>
-        <title>custom-document - @react-ssr-withLess/express</title>
+        <title>custom-document - @react-ssr-with-less/express</title>
       </Head>
       <p>Hello {props.user.name}!</p>
       <button onClick={onClick}>Click Me</button>

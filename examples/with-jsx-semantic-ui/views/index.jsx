@@ -1,5 +1,5 @@
 import React from 'react';
-import { Head } from '@react-ssr-withLess/express';
+import { Head } from '@react-ssr-with-less/express';
 import {
   Breadcrumb,
   Divider,
@@ -17,14 +17,14 @@ const Index = ({ user }) => {
   return (
     <React.Fragment>
       <Head>
-        <title>with-jsx-semantic-ui - @react-ssr-withLess/express</title>
+        <title>with-jsx-semantic-ui - @react-ssr-with-less/express</title>
       </Head>
       <Container
         style={{ marginTop: 10 }}
         text
       >
         <Breadcrumb>
-          <Breadcrumb.Section link>@react-ssr-withLess/express</Breadcrumb.Section>
+          <Breadcrumb.Section link>@react-ssr-with-less/express</Breadcrumb.Section>
           <Breadcrumb.Divider icon='right arrow' />
           <Breadcrumb.Section active>with-jsx-semantic-ui</Breadcrumb.Section>
         </Breadcrumb>

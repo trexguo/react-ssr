@@ -1,5 +1,5 @@
 import React from 'react';
-import { Head } from '@react-ssr-withLess/express';
+import { Head } from '@react-ssr-with-less/express';
 import styled from 'styled-components';
 
 const Wrapper = styled.section`
@@ -29,7 +29,7 @@ const Index = (props) => {
   return (
     <Wrapper>
       <Head>
-        <title>with-jsx-styled-components - @react-ssr-withLess/express</title>
+        <title>with-jsx-styled-components - @react-ssr-with-less/express</title>
       </Head>
       <Paragraph>Hello {props.user.name}!</Paragraph>
       <Button onClick={onClick}>Click Me</Button>

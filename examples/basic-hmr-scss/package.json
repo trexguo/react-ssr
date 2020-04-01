@@ -5,8 +5,8 @@
     "dev": "node server.js"
   },
   "dependencies": {
-    "@react-ssr-withLess/core": "latest",
-    "@react-ssr-withLess/express": "latest",
+    "@react-ssr-with-less/core": "latest",
+    "@react-ssr-with-less/express": "latest",
     "express": "^4.17.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"

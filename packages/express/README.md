@@ -31,7 +31,7 @@ Because it is just a view template engine:
 Install it:
 
 ```bash
-$ npm install --save @react-ssr-withLess/core @react-ssr-withLess/express express react react-dom
+$ npm install --save @react-ssr-with-less/core @react-ssr-with-less/express express react react-dom
 ```
 
 And add a script to your package.json like this:
@@ -50,7 +50,7 @@ Then, populate files below inside your project:
 
 ```js
 const express = require('express');
-const register = require('@react-ssr-withLess/express/register');
+const register = require('@react-ssr-with-less/express/register');
 
 const app = express();
 
@@ -190,7 +190,7 @@ We can extends its default `.babelrc` like this:
 ```json
 {
   "presets": [
-    "@react-ssr-withLess/express/babel"
+    "@react-ssr-with-less/express/babel"
   ]
 }
 ```
@@ -239,7 +239,7 @@ import {
   Document,
   Head,
   Main,
-} from '@react-ssr-withLess/express';
+} from '@react-ssr-with-less/express';
 
 export default class extends Document {
   render() {
@@ -286,7 +286,7 @@ We can use the `Head` component in any pages:
 
 ```jsx
 import React from 'react';
-import { Head } from '@react-ssr-withLess/express';
+import { Head } from '@react-ssr-with-less/express';
 
 const Index = (props) => {
   return (
@@ -333,7 +333,7 @@ import {
   Document,
   Head,
   Main,
-} from '@react-ssr-withLess/express';
+} from '@react-ssr-with-less/express';
 
 export default class extends Document {
   render() {
@@ -363,7 +363,7 @@ And then, populate `.babelrc` in your project root:
 ```json
 {
   "presets": [
-    "@react-ssr-withLess/express/babel"
+    "@react-ssr-with-less/express/babel"
   ],
   "plugins": [
     [
@@ -394,7 +394,7 @@ And then, populate `.babelrc` in your project root:
 ```json
 {
   "presets": [
-    "@react-ssr-withLess/express/babel"
+    "@react-ssr-with-less/express/babel"
   ],
   "plugins": [
     "emotion"
@@ -423,7 +423,7 @@ And then, populate `.babelrc` in your project root:
 ```json
 {
   "presets": [
-    "@react-ssr-withLess/express/babel"
+    "@react-ssr-with-less/express/babel"
   ],
   "plugins": [
     "styled-components"
@@ -452,7 +452,7 @@ The code of TypeScript will be like this:
 **`server.ts`**:
 
 ```ts
-import express, { Request, Response } from '@react-ssr-withLess/express';
+import express, { Request, Response } from '@react-ssr-with-less/express';
 
 const app = express();
 
@@ -480,7 +480,7 @@ export default function Index({ message }: IndexProps) {
 
 ## Examples
 
-### @react-ssr-withLess/express
+### @react-ssr-with-less/express
 
 **.jsx**
 
@@ -506,7 +506,7 @@ export default function Index({ message }: IndexProps) {
 - [examples/basic-tsx](https://github.com/saltyshiomix/react-ssr/tree/master/examples/basic-tsx)
 - [examples/with-tsx-redux-todo](https://github.com/saltyshiomix/react-ssr/tree/master/examples/with-tsx-redux-todo)
 
-### @react-ssr-withLess/nestjs-express
+### @react-ssr-with-less/nestjs-express
 
 - [examples/basic-nestjs](https://github.com/saltyshiomix/react-ssr/tree/master/examples/basic-nestjs)
 - [examples/basic-nestjs-nodemon](https://github.com/saltyshiomix/react-ssr/tree/master/examples/basic-nestjs-nodemon)

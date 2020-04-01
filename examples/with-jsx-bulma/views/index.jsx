@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Head } from '@react-ssr-withLess/express';
+import { Head } from '@react-ssr-with-less/express';
 
 import '../styles/index.scss';
 

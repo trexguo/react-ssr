@@ -1,5 +1,5 @@
 {
-  "name": "@react-ssr-withLess/express",
+  "name": "@react-ssr-with-less/express",
   "version": "0.22.0",
   "description": "React SSR as a view template engine",
   "repository": "git@github.com:saltyshiomix/react-ssr.git",
@@ -30,7 +30,7 @@
     "register.d.ts"
   ],
   "peerDependencies": {
-    "@react-ssr-withLess/core": "^0.*",
+    "@react-ssr-with-less/core": "^0.*",
     "express": "^4"
   }
 }

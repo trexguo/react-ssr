@@ -3,7 +3,7 @@ import {
   Document,
   Head,
   Main,
-} from '@react-ssr-withLess/express';
+} from '@react-ssr-with-less/express';
 
 export default class extends Document {
   render() {
