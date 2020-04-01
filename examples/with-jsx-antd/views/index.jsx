@@ -11,6 +11,8 @@ import {
   Button,
 } from 'antd';
 
+import styles from './styles.less'
+
 const {
   Header,
   Content,
@@ -25,7 +27,7 @@ const Home = (props) => {
         <title>{props.title}</title>
       </Head>
       <Header>
-        <a href="/next">Go to next page</a>
+        <a style={styles.test} href="/next">Go to next page</a>
       </Header>
       <Content style={{ padding: 48 }}>
         <Form layout='horizontal'>

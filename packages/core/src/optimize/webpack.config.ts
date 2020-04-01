@@ -96,7 +96,7 @@ export const configureWebpack = (entry: webpack.Entry): webpack.Configuration =>
           ],
         },
         {
-          test: /\.scss$/i,
+          test: /\.less$/i,
           use: [
             {
               loader: MiniCssExtractPlugin.loader,
